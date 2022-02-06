@@ -57,5 +57,11 @@ namespace BinarySearchTree
                 RightTree.Display();
             }
         }
+
+        //Method to get the size of the binary tree(UC2)
+        public void GetSize()
+        {
+            Console.WriteLine("Size of the binary tree is : " + (1 + this.leftCount + this.rightCount) + "\n");
+        }
     }
 }
